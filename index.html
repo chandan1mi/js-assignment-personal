@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 20px;
+            color: #333;
+        }
+
+        p {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        #result {
+            margin-top: 20px;
+            font-size: 24px;
+            color: #333;
+        }
+
+        #userChoice, #cpuChoice {
+            margin-top: 10px;
+            font-size: 20px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Rock, Paper, Scissors Game</h1>
+    <p>Choose your option:</p>
+    <button onclick="playRound()">Play Round</button>
+    <div id="result"></div>
+    <div id="userChoice"></div>
+    <div id="cpuChoice"></div>
+    <script src="app.js"></script>
+</body>
+</html>
