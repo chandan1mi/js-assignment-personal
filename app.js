@@ -10,7 +10,7 @@ function humanAnswer() {
     let ans;
     do {
         ans = parseInt(prompt('Enter 0 for "Rock", 1 for "Paper", or 2 for "Scissors"', 0));
-    } while (ans < 0 || ans > 2);
+    } while (isNaN(ans) || ans < 0 || ans > 2);;
     return ans;
 }
 
